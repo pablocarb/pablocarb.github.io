@@ -18,8 +18,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Pablocarb.GitHub.io
-description:
+title: BioDes: BioDesign Studio
+description: Engineering Biology Design Studio
 google_analytics:
 show_downloads: false
 theme: jekyll-theme-hacker
