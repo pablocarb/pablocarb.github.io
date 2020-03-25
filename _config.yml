@@ -21,7 +21,7 @@
 title: Pablocarb.GitHub.io
 description:
 google_analytics:
-show_downloads: true
+show_downloads: false
 theme: jekyll-theme-hacker
 
 gems:
@@ -29,7 +29,6 @@ gems:
 
 twitter_username: pablocarb
 github_username:  pablocarb
-show_downloads: false
 
 # title: Your awesome title
 # email: your-email@example.com
