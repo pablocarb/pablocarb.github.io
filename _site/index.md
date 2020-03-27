@@ -1,0 +1,5 @@
+### Welcome to Pablo Carbonell's GitHub Pages.
+
+### Short Bio
+
+Pablo Carbonell is a senior staff scientist at the Manchester Synthetic Biology Research Centre for Fine and Speciality Chemicals (SYNBIOCHEM), Manchester Institute of Biotechnology (The University of Manchester). PhD in Control Engineering from Polytechnic University of Valencia, Research Habilitation in Systems Biology from Paris-Saclay. Pablo has held a number of fellowships and visiting appointments, e.g., at theInstitute of Systems and Synthetic Biology (iSSB) in France, New York University Polytechnic School of Engineering (NYU-Poly), Barcelona Pompeu Fabra University and Fujirebio Inc (Tokyo). Research areas include automated design for metabolic engineering and synthetic biology, machine learning and control engineering. Pablo has contributed to the development of several bioretrosynthesis-based pathway design tools, including RetroPath, XTMS, EcoliTox, enzyme selection Selenzyme, biosensor design SensiPath and protein design Promis. 
