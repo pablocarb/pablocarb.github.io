@@ -22,7 +22,7 @@ title: "BioDes: BioDesign Studio"
 description: Engineering Biology Design Studio
 google_analytics:
 show_downloads: false
-theme: jekyll-theme-hacker
+theme: bulma-clean-theme
 
 github:
   is_project_page: false
