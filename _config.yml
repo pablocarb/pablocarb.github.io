@@ -25,7 +25,7 @@ show_downloads: false
 theme: jekyll-theme-hacker
 
 github:
-  is_project_page: false
+  is_project_page: true
 
 gems:
   - jekyll-mentions
