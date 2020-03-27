@@ -1,3 +1,4 @@
+
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your whole blog, values
@@ -22,10 +23,7 @@ title: "BioDes: BioDesign Studio"
 description: Engineering Biology Design Studio
 google_analytics:
 show_downloads: false
-theme: bulma-clean-theme
-
-github:
-  is_project_page: true
+theme: jekyll-theme-cayman
 
 gems:
   - jekyll-mentions
