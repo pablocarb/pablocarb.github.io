@@ -25,7 +25,7 @@ show_downloads: false
 theme: bulma-clean-theme
 
 github:
-  is_project_page: false
+  is_project_page: true
 
 gems:
   - jekyll-mentions
