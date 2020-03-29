@@ -1,21 +1,21 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-03-29T19:00:17+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">BioDes: BioDesign Studio</title><subtitle>Pablo Carbonell's Engineering Biology Design Studio</subtitle><entry><title type="html">Modeling Covid-19 propagation</title><link href="http://localhost:4000/models/2020/03/29/Modeling-COVID-19-in-several-countries.html" rel="alternate" type="text/html" title="Modeling Covid-19 propagation" /><published>2020-03-29T17:34:22+02:00</published><updated>2020-03-29T17:34:22+02:00</updated><id>http://localhost:4000/models/2020/03/29/Modeling%20COVID-19%20in%20several%20countries</id><content type="html" xml:base="http://localhost:4000/models/2020/03/29/Modeling-COVID-19-in-several-countries.html">&lt;p&gt;As we all struggle in this new uncharted situation of the Covid-19 pandemics around the world, most of us who work on modeling and engineering biology have been rushing to provide reliable information to figure out the extent of the outcome and to anticipate the next steps in order to curve down the damage.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-03-29T19:04:41+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">BioDes: BioDesign Studio</title><subtitle>Pablo Carbonell's Engineering Biology Design Studio</subtitle><entry><title type="html">Modeling Covid-19 propagation</title><link href="http://localhost:4000/models/2020/03/29/Modeling-COVID-19-in-several-countries.html" rel="alternate" type="text/html" title="Modeling Covid-19 propagation" /><published>2020-03-29T17:34:22+02:00</published><updated>2020-03-29T17:34:22+02:00</updated><id>http://localhost:4000/models/2020/03/29/Modeling%20COVID-19%20in%20several%20countries</id><content type="html" xml:base="http://localhost:4000/models/2020/03/29/Modeling-COVID-19-in-several-countries.html">&lt;p&gt;As we all struggle in this new uncharted situation of the Covid-19 pandemics around the world, most of us who work on modeling and engineering biology have been rushing to provide reliable information to figure out the extent of the outcome and to anticipate the next steps in order to curve down the damage.&lt;/p&gt;
 
-&lt;p&gt;Secluded in a cottage around the Suisse Normande where I would need to remain most likely for the next days, I have been spending some time looking at ways for predicting the outcome. I assume that&lt;/p&gt;
+&lt;p&gt;I have been spending some time looking at ways for predicting the outcome assuming that&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;There is an incubation period of 14 days;&lt;/li&gt;
   &lt;li&gt;A SIR model can be fitted, taking into account the window of 14 days;&lt;/li&gt;
   &lt;li&gt;Data is not always accurate and therefore we need to find the best time span from the published data and for each country;&lt;/li&gt;
-  &lt;li&gt;In addition, the model necessarily changes as countries take appropriate measures and therefore predictions might vary, hopefully becoming less pessimistic, as countries put in place contention measures.&lt;/li&gt;
+  &lt;li&gt;In addition, the model necessarily changes as countries take appropriate measures and therefore predictions might vary as countries put in place contention measures.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Based on such assumptions, there is a good fit between the models and the actual data. I have tried first to focus on South Korea, which is a country that has probably reached the peak thanks to their smart measures.&lt;/p&gt;
+&lt;p&gt;Based on such assumptions, there is a good fit between the models and the actual data. I have tried first to focus on South Korea, which is a country that has probably reached the peak thanks to their state measures.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/pablocarb/covid19/master/figs/Korea%2C%20South-2020-03-29-17-56-44.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;In the plot, we can see how the reported cases in the incubation window fit to a model which approximately follows the actual values. The total reported cases are also shown for reference.&lt;/p&gt;
 
-&lt;p&gt;In Italy, the most accurate model is at the moment controversial due to the latest increase. Therefore, it would be necessary to follow the reports in the next days in order to get a clear picture.&lt;/p&gt;
+&lt;p&gt;In Italy, the most accurate model is at the moment controversial due to a latest increase in cases. Therefore, it would be necessary to follow up with the reports in the next days in order to get a clear picture.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/pablocarb/covid19/master/figs/Italy-2020-03-29-17-58-44.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
 
