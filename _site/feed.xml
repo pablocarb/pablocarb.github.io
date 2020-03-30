@@ -1,4 +1,45 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-03-29T21:14:14+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">BioDes: BioDesign Studio</title><subtitle>Pablo Carbonell's Engineering Biology Design Studio</subtitle><entry><title type="html">Modeling Covid-19 propagation</title><link href="http://localhost:4000/models/2020/03/29/Modeling-COVID-19-in-several-countries.html" rel="alternate" type="text/html" title="Modeling Covid-19 propagation" /><published>2020-03-29T17:34:22+02:00</published><updated>2020-03-29T17:34:22+02:00</updated><id>http://localhost:4000/models/2020/03/29/Modeling%20COVID-19%20in%20several%20countries</id><content type="html" xml:base="http://localhost:4000/models/2020/03/29/Modeling-COVID-19-in-several-countries.html">&lt;p&gt;As we all struggle in this new uncharted situation of the Covid-19 pandemics around the world, most of us who work on modeling and engineering biology have been rushing to provide reliable information to figure out the extent of the outcome and to anticipate the next steps in order to curve down the damage.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-03-30T16:26:31+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">BioDes: BioDesign Studio</title><subtitle>Pablo Carbonell's Engineering Biology Design Studio</subtitle><entry><title type="html">Covid-19 model details</title><link href="http://localhost:4000/models/2020/03/30/Model-details.html" rel="alternate" type="text/html" title="Covid-19 model details" /><published>2020-03-30T13:34:22+02:00</published><updated>2020-03-30T13:34:22+02:00</updated><id>http://localhost:4000/models/2020/03/30/Model%20details</id><content type="html" xml:base="http://localhost:4000/models/2020/03/30/Model-details.html">&lt;h1 id=&quot;the-sir-model&quot;&gt;The SIR model&lt;/h1&gt;
+
+&lt;p&gt;The dynamics of the COVID-19 will be modelled using the SIR model:&lt;/p&gt;
+
+&lt;p&gt;$\frac{dS(t)}{dt}  =   - \beta \frac{I(t) S(t)}{N}$&lt;/p&gt;
+
+&lt;p&gt;$\frac{dI(t)}{dt} =  \beta I(t) \frac{I(t) S(t)}{N} - \gamma I(t) $&lt;/p&gt;
+
+&lt;p&gt;$\frac{dR(t)}{dt}  =  \gamma I(t)$&lt;/p&gt;
+
+&lt;p&gt;where $S(t)$ is the stock of susceptible population, $I(t)$ is the stock of infected, $R(t)$ is the stock of recovered population, and $N$ is the sum of these three.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;$\beta$ is the average number of contacts per person per time;&lt;/li&gt;
+  &lt;li&gt;$\gamma$ is the rate of recovered;&lt;/li&gt;
+  &lt;li&gt;$R_0 = \frac{\beta}{\gamma}$ is the basic reproduction number.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;the-discrete-sir-model&quot;&gt;The discrete SIR model&lt;/h1&gt;
+
+&lt;p&gt;The previous equations for the SIR model will be approximated using the following difference equation:&lt;/p&gt;
+
+&lt;p&gt;$S_{t+1} = S_t - T \beta S_t \frac{I_t}{N}$&lt;/p&gt;
+
+&lt;p&gt;$I_{t+1} = I_t + T \beta S_t \frac{I_t}{N} - T \gamma I_t$&lt;/p&gt;
+
+&lt;p&gt;$R_{t+1} = R_t + T \gamma I_t$&lt;/p&gt;
+
+&lt;p&gt;where $S_t$ are the susceptible population, $I_t$ is the infected and $R_t$ the recovered. $T$ is the sampling period, typically 1 day.&lt;/p&gt;
+
+&lt;h1 id=&quot;model-and-data-estimation&quot;&gt;Model and data estimation&lt;/h1&gt;
+
+&lt;p&gt;In order to estimate the parameters of the model $(\hat \beta, \hat \gamma)$, we will use an optimizer that will minimize the root mean square difference between the predicted infected population $I_t$ and the actual infected retrieved from official data daily published by the John Hopkins University.&lt;/p&gt;
+
+&lt;p&gt;The data contains three time series, i.e., reported ($P_t$), recoveries ($C_t$) and deaths ($D_t$). We will assume an incubation period of $i = 14$ days. The actual infected $I_t^*$ will be estimated by looking at the increase in reported cases for the incubation period less recoveries and deaths:&lt;/p&gt;
+
+&lt;p&gt;$I_t^* =   P_t - C_t - D_t - P_{t-i}$&lt;/p&gt;
+
+&lt;h2 id=&quot;acknowledgements&quot;&gt;Acknowledgements&lt;/h2&gt;
+
+&lt;p&gt;Thanks to &lt;a href=&quot;https://www.lewuathe.com/covid-19-dynamics-with-sir-model.html&quot;&gt;lewuathe&lt;/a&gt; for coding templates.
+Thanks to &lt;a href=&quot;https://covid19.webs.upv.es/&quot;&gt;MUNQ&lt;/a&gt; for initial ideas.&lt;/p&gt;</content><author><name></name></author><summary type="html">The SIR model</summary></entry><entry><title type="html">Modeling Covid-19 propagation</title><link href="http://localhost:4000/models/2020/03/29/Modeling-COVID-19-in-several-countries.html" rel="alternate" type="text/html" title="Modeling Covid-19 propagation" /><published>2020-03-29T17:34:22+02:00</published><updated>2020-03-29T17:34:22+02:00</updated><id>http://localhost:4000/models/2020/03/29/Modeling%20COVID-19%20in%20several%20countries</id><content type="html" xml:base="http://localhost:4000/models/2020/03/29/Modeling-COVID-19-in-several-countries.html">&lt;p&gt;As we all struggle in this new uncharted situation of the Covid-19 pandemics around the world, most of us who work on modeling and engineering biology have been rushing to provide reliable information to figure out the extent of the outcome and to anticipate the next steps in order to curve down the damage.&lt;/p&gt;
 
 &lt;p&gt;I have been spending some time looking at ways for predicting the outcome assuming that&lt;/p&gt;
 

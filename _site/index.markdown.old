@@ -4,7 +4,7 @@
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="/assets/css/style.css?v=985fbb1d5f154bd6a281a20e82f5dba17a8f390f">
+    <link rel="stylesheet" href="/assets/css/style.css?v=4406e851f0cb90088039bfadc0d05c980a410f99">
 
   </head>
   <body>
@@ -36,6 +36,28 @@
     </header>
 
     <!-- Home Post List -->
+    
+
+    <div>
+      <a href="/models/2020/03/30/Model-details.html">
+        <h2 >Covid-19 model details</h2>
+      </a>
+        
+        <h3 >The SIR model
+
+</h3>
+        
+      <p class="post-meta">Posted by
+        
+        
+        
+        on
+        March 30, 2020
+      </p>
+    </div>
+
+    <hr>
+
     
 
     <div>
