@@ -33,9 +33,12 @@
     {% for post in site.posts limit : 5 %}
 
     <div>
-      <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
-        <h2 >{{ post.title }}</h2>
+      <h2 >
+
+      <a style="color: inherit" href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
+        {{ post.title }}
       </a>
+    </h2>
         {% if post.subtitle %}
         <h3 >{{ post.subtitle }}</h3>
         {% else %}

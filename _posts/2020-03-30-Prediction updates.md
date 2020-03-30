@@ -3,6 +3,7 @@ layout: post
 title:  "Covid-19 prediction updates"
 date:   2020-03-30 13:34:22 +0100
 categories: models
+author: Pablo Carbonell
 ---
 
 # Updates on the predictions

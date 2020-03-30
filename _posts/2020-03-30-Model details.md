@@ -3,6 +3,7 @@ layout: post
 title:  "Covid-19 model details"
 date:   2020-03-30 12:34:22 +0100
 categories: models
+author: Pablo Carbonell
 ---
 
 # The SIR model

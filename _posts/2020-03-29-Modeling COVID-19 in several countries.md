@@ -3,6 +3,7 @@ layout: post
 title:  "Modeling Covid-19 propagation"
 date:   2020-03-29 16:34:22 +0100
 categories: models
+author: Pablo Carbonell
 ---
 
 As we all struggle in this new uncharted situation of the Covid-19 pandemics around the world, most of us who work on modeling and engineering biology have been rushing to provide reliable information to figure out the extent of the outcome and to anticipate the next steps in order to curve down the damage.

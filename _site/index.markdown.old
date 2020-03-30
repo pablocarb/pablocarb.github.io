@@ -39,9 +39,12 @@
     
 
     <div>
-      <a href="/models/2020/03/30/Prediction-updates.html">
-        <h2 >Covid-19 prediction updates</h2>
+      <h2 >
+
+      <a style="color: inherit" href="/models/2020/03/30/Prediction-updates.html">
+        Covid-19 prediction updates
       </a>
+    </h2>
         
         <h3 >Updates on the predictions
 
@@ -49,7 +52,7 @@
         
       <p class="post-meta">Posted by
         
-        
+        Pablo Carbonell
         
         on
         March 30, 2020
@@ -61,9 +64,12 @@
     
 
     <div>
-      <a href="/models/2020/03/30/Model-details.html">
-        <h2 >Covid-19 model details</h2>
+      <h2 >
+
+      <a style="color: inherit" href="/models/2020/03/30/Model-details.html">
+        Covid-19 model details
       </a>
+    </h2>
         
         <h3 >The SIR model
 
@@ -71,7 +77,7 @@
         
       <p class="post-meta">Posted by
         
-        
+        Pablo Carbonell
         
         on
         March 30, 2020
@@ -83,15 +89,18 @@
     
 
     <div>
-      <a href="/models/2020/03/29/Modeling-COVID-19-in-several-countries.html">
-        <h2 >Modeling Covid-19 propagation</h2>
+      <h2 >
+
+      <a style="color: inherit" href="/models/2020/03/29/Modeling-COVID-19-in-several-countries.html">
+        Modeling Covid-19 propagation
       </a>
+    </h2>
         
         <h3 >As we all struggle in this new uncharted situation of the Covid-19 pandemics around the...</h3>
         
       <p class="post-meta">Posted by
         
-        
+        Pablo Carbonell
         
         on
         March 29, 2020
